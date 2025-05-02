@@ -1,0 +1,146 @@
+<!DOCTYPE html> <!-- Define que este es un documento HTML5 -->
+<html lang="es"> <!-- Indica que el idioma del contenido es español -->
+<head>
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres para admitir caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Establece la codificación de caracteres para admitir caracteres especiales -->
+    <title>Motos V E I</title> <!-- Define el título de la página en la pestaña del navegador -->
+    <link rel="stylesheet" href="página de las motos.CSS">  <!-- Enlace a la hoja de estilos CSS -->
+     <!-- Enlace a la biblioteca de iconos Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header> <!-- Sección del encabezado de la página -->
+        <div class="logo">
+            <img src="Seccion_motos/img/logo vei.png" alt="Motos V E I" style="height: 60px;"> </div> <!-- Muestra el nombre o logo de la empresa -->
+        <!-- Barra de búsqueda -->
+        <div class="search-container">
+            <input type="text" placeholder="Buscar..."> <!-- Campo de entrada para escribir la búsqueda -->
+            <button>
+                <i class="fas fa-search"></i> <!-- Icono de lupa -->
+            </button>
+        </div>
+        <!-- Contenedor derecho del encabezado con carrito y menú -->
+        <div class="header-right">
+            <div class="cart">
+              <i class="fas fa-shopping-cart"></i> <!-- Icono de carrito de compras -->
+            </div>
+            <div class="menu">
+              <i class="fas fa-bars"></i> <!-- Icono de menú hamburguesa -->
+            </div>
+            <a href="index.html">
+                <i class="fas fa-home house-icon"></i>
+              </a>
+        </div>
+    </header>
+     <!-- Sección de presentación principal -->
+    <section class="hero">
+        <p>Explora nuestra colección de motocicletas de alto rendimiento para ciudad.</p> <!-- Descripción -->
+
+     <!-- Sección de productos en venta -->
+    <section id="productos" class="productos">
+        <h2>Nuestros Modelos De Ciudad</h2>
+        <p>En nuestro sitio web podras encontrar diferentes modelos de motos para ciudad !Encuentra la ideal para ti¡</p>
+        <div class="productos-grid"> <!-- Contenedor en formato grid -->
+             <!-- Tarjeta del modelo honda -->
+            <div class="producto-card">
+                <img src="Seccion_motos/img/Honda PCX 160.jpeg" alt="Honda PCX 160">
+                <h3>Honda PCX 160</h3>
+                <p>Te ofrece una gran comodidad al manejar, un diseño moderno y un excelente rendimiento de combustible, ideal para la ciudad.</p>
+                <h3>$47,990.00</h3>
+                <a href="Seccion_motos/MOTO Honda PCX 160/MOTO Honda PCX 160.html" class="btn">Ver Detalles</a><!-- Botón para más detalles -->
+            </div>
+             <!-- Tarjeta del modelo suzuki-->
+            <div class="producto-card">
+                <img src="Seccion_motos/img/Yamaha NMAX 155.jpeg" alt="Yamaha NMAX 155">
+                <h3>Suzuki Burgman 125</h3>
+                <p>Combina un estilo deportivo con tecnología avanzada y un motor eficiente que te permitirá moverte con agilidad.</p>
+                <h3>$44,990.00</h3>
+                <a href="Seccion_motos/MOTO Suzuki Burgman 125/MOTO Honda CB125F.html" class="btn">Ver Detalles</a>
+            </div>
+             <!-- Tarjeta del modelo homda (agotado) -->
+            <div class="producto-card agotado">
+                <img src="Seccion_motos/img/Suzuki Burgman 125.jpeg" alt="Suzuki Burgman 125">
+                <h3>Honda CB125F</h3>
+                <p>Es una opción confiable y de bajo consumo, ideal si prefieres una moto económica y fácil de mantener.</p>
+                <h3>$43,990.00</h3>
+                <span class="agotado-label">Agotado</span> <!-- Etiqueta de agotado -->
+            </div>
+            <!-- Tarjeta del modelo pulsar -->
+            <div class="producto-card">
+                <img src="Seccion_motos/img/Honda CB125F.jpeg" alt="Honda CB125F">
+                <h3>Bajaj Pulsar NS 160</h3>
+                <p>Es una opción confiable y de bajo consumo, ideal si prefieres una moto económica y fácil de mantener.</p>
+                <h3>$35,990.00</h3>
+                <a href="Seccion_motos/MOTO Bajaj Pulsar NS 160/MOTO Bajaj Pulsar NS 160.html" class="btn">Ver Detalles</a>
+            </div>
+            <!-- Tarjeta del modelo yamaha -->
+            <div class="producto-card">
+                <img src="Seccion_motos/img/Bajaj Pulsar NS 160.jpeg" alt="Bajaj Pulsar NS 160">
+                <h3>Yamaha NMAX 155</h3>
+                <p>Destaca por su potencia y diseño agresivo, perfecta para quienes buscan velocidad y estilo.</p>
+                <h3>$49,499.00</h3>
+                <a href="Seccion_motos/MOTO Yamaha NMAX 155/MOTO Yamaha NMAX 155.html" class="btn">Ver Detalles</a>
+            </div>
+            <!-- Tarjeta del modelo yamaha (agogtado) -->
+            <div class="producto-card agotado">
+                <img src="Seccion_motos/img/KTM Duke 200.jpeg" alt="KTM Duke 200">
+                <h3>Yamaha FZ-S FI</h3>
+                <p>Es ligera y maniobrable, con una gran aceleración y un diseño deportivo que llama la atención.</p>
+                <h3>$81,999.00</h3>
+                <span class="agotado-label">Agotado</span>
+            </div>
+            <!-- Tarjeta del modelo tvs -->
+            <div class="producto-card">
+                <img src="Seccion_motos/img/Yamaha FZ-S FI.jpeg" alt="Yamaha FZ-S FI">
+                <h3>TVS Apache RTR 160</h3>
+                <p>Ofrece estabilidad, frenos ABS y un motor eficiente, brindándote un manejo cómodo y seguro.</p>
+                <h3>$44,000.00</h3>
+                <a href="Seccion_motos/MOTO TVS Apache RTR 160 4V/MOTO TVS Apache RTR 160 4V.html" class="btn">Ver Detalles</a>
+            </div>
+            <!-- Tarjeta del modelo vezpa -->
+            <div class="producto-card">
+                <img src="Seccion_motos/img/TVS Apache RTR 160 4V.jpeg" alt="TVS Apache RTR 160 4V">
+                <h3>Vespa Primavera 150</h3>
+                <p>Es una moto ágil y potente con una aceleración impresionante, ideal para moverte rápido por la ciudad.</p>
+                <h3>$46,000.00</h3>
+                <a href="Seccion_motos/MOTO Yamaha FZ-S FI/MOTO Yamaha FZ-S FI.html" class="btn">Ver Detalles</a>
+            </div>
+            <!-- Tarjeta del modelo ktm (agotado) -->
+            <div class="producto-card agotado">
+                <img src="Seccion_motos/img/Vespa Primavera 150.jpeg" alt="Vespa Primavera 150">
+                <h3>KTM Duke 200</h3>
+                <p> Te brinda un diseño icónico con una conducción suave, perfecta si buscas elegancia y un estilo clásico.</p>
+                <h3>$78,990.00</h3>
+                <span class="agotado-label">Agotado</span>
+            </div>
+            <!-- Tarjeta del modelo italika -->
+            <div class="producto-card">
+                <img src="Seccion_motos/img/Italika WS 150.jpeg" alt="Italika WS 150">
+                <h3>Italika WS 150</h3>
+                <p> Es una opción accesible y funcional, con un bajo costo de mantenimiento y un diseño práctico para el día a día.</p>
+                <h3>$34,499.00</h3>
+                <a href="Seccion_motos/MOTO Italika WS 150/MOTO Italika WS 150.html" class="btn">Ver Detalles</a>
+            </div>
+        </div>
+    </section> 
+    <footer>
+        <div class="footer-container">
+          <div>
+            <h4>Contacto</h4>
+            <p>Email: MOTOS-VEI-@cbtis52.edu.mx</p>
+            <p>Tel. para más ayuda: +52 123 456 7890</p>
+          </div>
+          <div>
+            <h4>Síguenos</h4>
+            <a href="Redes Sociales/correos.html"><i class="fab fa-google"></i></a>
+            <a href="Redes Sociales/instas.html"><i class="fab fa-instagram"></i></a>
+            <a href="Redes Sociales/whats.html"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <h4 class="copyright">© 2025 Motos V E I - Todos los derechos reservados.</h4>
+      </footer> 
+      <a href="#" class="btn-subir" title="Subir al inicio">↑</a>
+</body>
+</html>
