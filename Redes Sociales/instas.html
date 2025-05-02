@@ -1,0 +1,95 @@
+<!-- Instagram Contactos -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contactos Instagram</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 15px;
+      border: 4px solid transparent;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 250px;
+      transition: transform 0.3s ease, border 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      border: 4px solid #d6249f;
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #d6249f;
+    }
+
+    .card h3 {
+      margin: 5px 0;
+      color: #888;
+    }
+
+    .card h2 {
+      margin: 10px 0;
+      color: #2c3e50;
+    }
+
+    .card a {
+      font-size: 1.1rem;
+      color: #d6249f;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="img_Insta.png" alt="Foto de Edson">
+      <h3>Contacto de:</h3>
+      <h2>Edson</h2>
+      <a href="https://instagram.com/edsonpj04" target="_blank">@edsonpj04</a>
+    </div>
+    <div class="card">
+      <img src="img_Insta.png" alt="Foto de Victor">
+      <h3>Contacto de:</h3>
+      <h2>Victor</h2>
+      <a href="https://instagram.com/victorzamora138" target="_blank">@victorzamora138</a>
+    </div>
+    <div class="card">
+      <img src="img_Insta.png" alt="Foto de Isaak">
+      <h3>Contacto de:</h3>
+      <h2>Isaak</h2>
+      <a href="https://instagram.com/isaakcab" target="_blank">@isaakcab</a>
+    </div>
+  </div>
+</body>
+</html>
